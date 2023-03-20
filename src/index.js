@@ -63,3 +63,18 @@ navigationItems[2].setAttribute("class", "italic");
 navigationItems[3].setAttribute("class", "italic");
 navigationItems[4].setAttribute("class", "italic");
 navigationItems[5].setAttribute("class", "italic");
+
+const logo = document.getElementById("logo-img");
+logo.setAttribute("src", "http://localhost:9000/img/logo.png");
+
+const circularImage = document.getElementById("cta-img");
+circularImage.setAttribute("src", "http://localhost:9000/img/cta.png");
+
+const middleImage = document.getElementById("middle-img");
+middleImage.setAttribute("src", "http://localhost:9000/img/accent.png");
+
+/* 2.yol :
+document.getElementById("logo-img").src = siteContent["images"]["logo-img"];
+document.getElementById("cta-img").src = siteContent["images"]["cta-img"];
+document.getElementById("middle-img").src = siteContent["images"]["accent-img"];
+*/
