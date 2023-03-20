@@ -123,3 +123,8 @@ const iletisimParagraf = document.querySelectorAll(".contact p");
 iletisimParagraf[0].textContent = siteContent["iletisim"]["adres"];
 iletisimParagraf[1].textContent = siteContent["iletisim"]["telefon"];
 iletisimParagraf[2].textContent = siteContent["iletisim"]["email"];
+
+const footerPart = document.querySelector("footer a");
+footerPart.textContent = siteContent["footer"]["copyright"];
+
+footerPart.setAttribute("class", "bold");
