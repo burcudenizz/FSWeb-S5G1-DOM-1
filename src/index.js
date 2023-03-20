@@ -78,3 +78,9 @@ document.getElementById("logo-img").src = siteContent["images"]["logo-img"];
 document.getElementById("cta-img").src = siteContent["images"]["cta-img"];
 document.getElementById("middle-img").src = siteContent["images"]["accent-img"];
 */
+
+const sentenceBegin = document.querySelector(".cta-text h1");
+sentenceBegin.textContent = siteContent["cta"]["h1"];
+
+const butonBaslayin = document.querySelector(".cta-text button");
+butonBaslayin.textContent = siteContent["cta"]["button"];
